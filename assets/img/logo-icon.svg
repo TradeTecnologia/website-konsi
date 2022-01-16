@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="34.999996mm"
+   height="35.000004mm"
+   viewBox="0 0 34.999996 35.000004"
+   version="1.1"
+   id="svg389"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview391"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.9705668"
+     inkscape:cx="-124.32971"
+     inkscape:cy="57.090173"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs386" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-77.696173,-136.47827)">
+    <g
+       id="g447"
+       transform="translate(5.4609409,36.537968)"
+       inkscape:export-filename="/home/tradeoff/Pictures/assets/konfi/logo.png"
+       inkscape:export-xdpi="371.56558"
+       inkscape:export-ydpi="371.56558">
+      <path
+         d="M 72.235232,99.940307 V 134.94031 H 107.23523 V 99.940307 Z"
+         style="fill:#131510;fill-rule:evenodd;stroke-width:0.0823148"
+         id="path18" />
+      <path
+         d="m 87.899598,115.72196 3.255789,-2.75333 5.287748,-4.4717 v 3.86129 l -0.721932,0.61041 -5.28768,4.47165 5.28768,4.47171 0.721932,0.61041 v 3.86129 l -5.287748,-4.4717 -3.255789,-2.75348 c -1.19961,-1.00359 -1.174707,-2.15189 0,-3.43655 z m -4.87227,2.3857 4.498575,3.80433 0.721884,0.61041 v 3.86129 l -5.220459,-4.41497 z m 0.0039,-5.19577 1.945044,-1.6449 3.275415,-2.77006 v 3.86129 l -0.721863,0.61041 -4.498596,3.80432 z"
+         style="fill:#13b190;fill-rule:evenodd;stroke-width:0.261733"
+         id="path22" />
+    </g>
+  </g>
+</svg>
