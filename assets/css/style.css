@@ -548,8 +548,16 @@ section {
   color: #0dc7a2;
 }
 
-.why-us h5 span {
+.why-us .card-body p span {
+  color: #0c8b72;
+}
+
+.why-us .section-title p span {
   color: #0dc7a2;
+} 
+
+.why-us h5 span {
+  color: #0c8b72;
 }
 
 .why-us .card {
@@ -682,6 +690,11 @@ section {
 .about .content {
   padding: 30px 30px 30px 0;
 }
+
+.about span {
+  color: #0a9f82;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
