@@ -505,6 +505,7 @@ section {
   border-radius: 6px;
   background: #252525;
   transition: 0.3s;
+  min-width: 200px;
 }
 .services .icon-box:hover {
   background: #2b2b2b;
@@ -588,7 +589,7 @@ section {
   color: #0a9f82;
 }
 .why-us .card-text {
-  color: #5e5e5e;
+  color: #110e0ebe;
   text-align: center;
 }
 .why-us .card:hover .card-icon i {
@@ -607,14 +608,15 @@ section {
 .cta {
   background: #03261f;
   background-size: cover;
-  padding: 100px 0 100px 0;
+  padding: 40px 0 60px 0;
 }
 
 
 .cta h3 {
   color: #fff;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 700;
+  margin: 20px;
 }
 
 .cta h3 span {
@@ -623,6 +625,7 @@ section {
 
 .cta p {
   color: #fff;
+  font-size: 22px;
 }
 .cta .cta-btn {
   font-family: "Raleway", sans-serif;
@@ -633,13 +636,40 @@ section {
   padding: 10px 35px;
   border-radius: 5px;
   transition: 0.5s;
-  margin-top: 10px;
+  margin-top: 20px;
   border: 2px solid #fff;
   color: #fff;
 }
+
 .cta .cta-btn:hover {
   background: #fff;
   color: #0a9f82;
+}
+
+.cta .cta-btn-android {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 9px 35px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.cta .cta-btn-android:hover {
+  background: #fff;
+  color: #0a9f82;
+}
+
+.cta .cta-btn-android .android-icon {
+  font-size: 25px;
+  position: relative;
+  top: 3px;
+  left: 2px;
 }
 
 /*--------------------------------------------------------------
@@ -660,6 +690,7 @@ section {
 .about .content p {
   margin-bottom: 30px;
 }
+
 .about .content .about-btn {
   padding: 8px 30px 9px 30px;
   color: #fff;
@@ -695,7 +726,7 @@ section {
 }
 .about .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #848484;
+  color: #636060be;
 }
 @media (max-width: 1200px) {
   .about .content {
@@ -724,8 +755,8 @@ section {
 }
 .counts .count-box i {
   position: absolute;
-  width: 54px;
-  height: 54px;
+  width: 58px;
+  height: 58px;
   top: -27px;
   left: 50%;
   transform: translateX(-50%);
@@ -749,7 +780,7 @@ section {
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /*--------------------------------------------------------------
@@ -994,7 +1025,7 @@ section {
   box-sizing: content-box;
   padding: 30px;
   margin: 30px 15px;
-  min-height: 200px;
+  min-height: 290px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   background: #fff;
@@ -1018,8 +1049,18 @@ section {
   color: #999;
   margin: 0;
 }
+
+.testimonials span {
+  color: #0a9f82;
+}
+
+.testimonials .section-bg-font {
+  color: #070a0a;
+}
+
+
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #fceaea;
+  color: #365f51;
   font-size: 26px;
 }
 .testimonials .testimonial-item .quote-icon-left {
@@ -1189,6 +1230,10 @@ section {
   position: relative;
   overflow: hidden;
 }
+.team span {
+  color: #0a9f82;
+}
+
 .team .member .social {
   position: absolute;
   left: 0;
