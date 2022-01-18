@@ -13,6 +13,48 @@
     content="app para emprestimo consignado, app para credito consignado, como reduzir taxa de juros, as menores e melhores taxas de juros do mercado, app para reduzir dividas e liberar dinheiro, comparador de taxas de juros consignado, portabilidade de contrato empréstimo"
     name="keywords">
 
+  <meta name="facebook-domain-verification" content="uxao2tclju86leo613d2njik4ipnjz" />
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    ! function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js%27)');
+    fbq('init', '482001613321095');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=482001613321095&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM7VQ5DK41"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZM7VQ5DK41');
+  </script>
+
   <!-- Favicons -->
   <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -34,15 +76,14 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- queryParameters JS File -->
-  <!-- <script language="JavaScript" scr="assets/js/queryParameters.js"></script> -->
-
   <!-- =======================================================
   * Template Name: Presento - v3.7.0
   * Template URL: https://bootstrapmade.com/presento-bootstrap-corporate-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+
 </head>
 
 <body>
@@ -368,10 +409,11 @@
         <div class="text-center">
           <h3>Venha fazer parte do time <span>Kon</span></h3>
           <p>Baixe agora o App!</p>
-          <a href="https://play.google.com/store/apps/details?id=com.br.konsi" target="_blank" onclick="queryObj()"
-            class="cta-btn-android"><i class="bx bxl-android  android-icon"></i> Google Play</a>
-          <a href="https://apps.apple.com/tt/app/konsi/id1591286851" target="_blank" class="cta-btn"><i
-              class="bi bi-apple"></i> App Store</a>
+          <a id="deepLinkAndroid" href="https://play.google.com/store/apps/details?id=com.br.konsi" target="_blank"
+            class="cta-btn-android"><i class="bx bxl-android  android-icon"></i> Google
+            Play</a>
+          <a id="deepLinkApple" href="https://apps.apple.com/tt/app/konsi/id1591286851" target="_blank"
+            class="cta-btn"><i class="bi bi-apple"></i> App Store</a>
         </div>
       </div>
     </section><!-- End Cta Section -->
@@ -1278,19 +1320,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <!-- <script>
-    function queryObj() {
-      var result = {},
-        keyValuePairs = location.search.slice(1).split("&");
-      keyValuePairs.forEach(function (keyValuePair) {
-        keyValuePair = keyValuePair.split('=');
-        result[decodeURIComponent(keyValuePair[0])] = decodeURIComponent(keyValuePair[1]) || '';
-      });
-      return result;
-    }
-    var myParam = queryObj();
-    console.log(myParam);
-  </script> -->
+  <script src="assets/js/queryParameters.js"></script>
 
 </body>
 
